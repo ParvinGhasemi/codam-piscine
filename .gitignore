@@ -1,3 +1,19 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vim temporary files
+*.swp
+*.swo
+
+# Logs and test results
+*.log
+*.diff
+*.result
+*.trace
+
 # Prerequisites
 *.d
 
