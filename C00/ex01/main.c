@@ -5,24 +5,15 @@
 /*                                                     +:+                    */
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2025/03/28 23:56:25 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/03/28 23:58:17 by parvinm.gha   ########   odam.nl         */
+/*   Created: 2025/03/28 23:55:02 by parvinm.gha   #+#    #+#                 */
+/*   Updated: 2025/03/28 23:55:05 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c);
+void	ft_print_alphabet(void);
 
 int	main(void)
 {
-	ft_putchar('A');
-	ft_putchar('\n');
-	ft_putchar(0);
-	ft_putchar('\n');
-	ft_putchar('g');
-	ft_putchar('!');
-	ft_putchar('~');
-	ft_putchar('\n');
+	ft_print_alphabet();
 	return (0);
 }
