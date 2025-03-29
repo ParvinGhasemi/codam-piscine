@@ -6,7 +6,7 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/03/29 00:37:38 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/03/29 01:03:36 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/03/29 01:05:58 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ void	ft_is_negative(int num);
 int	main(void)
 {
 	int	num;
+
 	num = -123456;
 	write(1, "-123456 is >> ", 14);
 	ft_is_negative(num);
