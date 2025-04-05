@@ -6,18 +6,18 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/04/05 00:23:37 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/04/05 05:38:16 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/05 05:43:34 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-static int	ft_is_alnum(char character)
+int	ft_is_alnum(char character)
 {
 	return ((character >= '0' && character <= '9')
-			|| (character >= 'a' && character <= 'z')
-			|| (character >= 'A' && character <= 'Z'));
+		|| (character >= 'a' && character <= 'z')
+		|| (character >= 'A' && character <= 'Z'));
 }
 
-static int	ft_is_new_word(char *str, int i)
+int	ft_is_new_word(char *str, int i)
 {
 	if (i == 0)
 		return (1);
@@ -39,7 +39,8 @@ char	*ft_strcapitalize(char *str)
 		{
 			if (ft_is_new_word(str, i) && (str[i] >= 'a' && str[i] <= 'z'))
 				str[i] -= 32;
-			else if (!ft_is_new_word(str, i) && (str[i] >= 'A' && str[i] <= 'Z'))
+			else if (!ft_is_new_word(str, i)
+				&& (str[i] >= 'A' && str[i] <= 'Z'))
 				str[i] += 32;
 		}
 		i++;
