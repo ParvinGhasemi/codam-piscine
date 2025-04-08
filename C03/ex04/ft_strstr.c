@@ -6,7 +6,7 @@
 /*   By: pmohamma <pmohamma@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/03/13 14:29:25 by pmohamma      #+#    #+#                 */
-/*   Updated: 2025/04/08 22:36:21 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/08 23:01:54 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strstr(char *str, char *to_find)
 	int	j;
 
 	if (to_find[0] == '\0')
-		return (0);
+		return (str);
 	i = 0;
 	while (str[i])
 	{
