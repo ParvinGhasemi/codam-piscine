@@ -6,7 +6,7 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/04/08 22:40:13 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/04/08 23:07:36 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/08 23:08:05 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,4 @@ int	main(void)
 
 	return (0);
 }
-// These tests were created using AI to to test the ft_strlcat function
+// These tests in this file were created using AI to to test the ft_strlcat function
