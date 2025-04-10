@@ -6,9 +6,11 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/04/08 22:40:13 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/04/09 20:32:42 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/10 16:34:06 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
+
+// There are 2 main() here, to test it, and 2nd way to test it with the original strlcat()
 
 #include <stdio.h>
 #include <string.h>
@@ -86,8 +88,9 @@ int	main(void)
 	printf("Test 2 (size = 3):\n");
 	printf("ft_strlcat returns: %u, result: %s\n", ret_ft, dest_ft);
 	printf("strlcat returns:    %u, result: %s\n\n", ret_sys, dest_sys);
-
-	/* Test 3: Partial concatenation.
+	
+	/*
+	   Test 3: Partial concatenation.
 	   Given "Hello" (5 characters) and size = 10,
 	   only (10 - 1 - 5) = 4 characters from src can be added.
 	   The return value is still the full intended length (5 + 7 = 12).
